@@ -65,6 +65,9 @@ def req_historical_data(contract, endDateTime='', durationStr='30 D',
             self.next_valid_id = orderId
 
         def historicalData(self, reqId, bar):
+            split
+            self.historical_data=pd.dataframe();
+            pd.concat
             # YOUR CODE GOES HERE: Turn "bar" into a pandas dataframe, formatted
             #   so that it's accepted by the plotly candlestick function.
             # Take a look at candlestick_plot.ipynb for some help!
